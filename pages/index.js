@@ -1,5 +1,7 @@
 import Image from 'next/image';
 
+import TestimonialesCard from '@/Components/TestimonialesCard';
+
 export default function Home() {
   return (
     <main>
@@ -66,6 +68,30 @@ export default function Home() {
         {/* BOTÓN */}
       </section>
       {/* //////////////////////////////// INFO /////////////////////////////////*/}
+
+      {/* //////////////////////////////// TESTIMONIOS /////////////////////////////////*/}
+
+      <section>
+        <div className="text-center my-8">
+          <h3 className="text-base font-medium text-secondary">
+            ¿Qué dicen los estudiantes sobre
+            <span className="font-bold text-primary"> Rumy</span>?
+          </h3>
+          <h2 className="text-4xl font-bold text-accent">Testimonios</h2>
+        </div>
+
+        {/* CARDs */}
+        <TestimonialesCard
+          name={'juanita Pelaez'}
+          comment={
+            'Gracias a Rumy no tuve que estresarme más al buscar en dónde vivir. Pude preocuparme solo en estudiar”. aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+          }
+          image={
+            'https://cdn2.psychologytoday.com/assets/styles/manual_crop_1_91_1_1528x800/public/field_blog_entry_images/2018-09/shutterstock_648907024.jpg?itok=7lrLYx-B'
+          }
+        />
+        {/* CARDs */}
+      </section>
 
       {/* //////////////////////////////// TESTIMONIOS /////////////////////////////////*/}
 
