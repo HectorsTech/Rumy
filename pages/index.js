@@ -1,6 +1,7 @@
 import Image from 'next/image';
 
 import TestimonialesCard from '@/Components/TestimonialesCard';
+import ButtonLP from '@/Components/ButtonLP';
 
 export default function Home() {
   return (
@@ -60,9 +61,7 @@ export default function Home() {
           </div>
           {/* BOTÓN */}
           <div className="text-center lg:text-start my-5">
-            <button className="rounded-xl text-base bg-secondary text-whiteText font-bold w-44 h-10 hover:bg-accent">
-              Saber más
-            </button>
+            <ButtonLP text={'Saber más'} />
           </div>
         </div>
         {/* BOTÓN */}
