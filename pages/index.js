@@ -81,15 +81,24 @@ export default function Home() {
         </div>
 
         {/* CARDs */}
-        <TestimonialesCard
-          name={'juanita Pelaez'}
-          comment={
-            'Gracias a Rumy no tuve que estresarme más al buscar en dónde vivir. Pude preocuparme solo en estudiar”. aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
-          }
-          image={
-            'https://cdn2.psychologytoday.com/assets/styles/manual_crop_1_91_1_1528x800/public/field_blog_entry_images/2018-09/shutterstock_648907024.jpg?itok=7lrLYx-B'
-          }
-        />
+        <div class="">
+          <TestimonialesCard
+            name={'juanita Pelaez'}
+            comment={
+              'Gracias a Rumy no tuve que estresarme más al buscar en dónde vivir. Pude preocuparme solo en estudiar”. aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+            }
+            image={
+              'https://cdn2.psychologytoday.com/assets/styles/manual_crop_1_91_1_1528x800/public/field_blog_entry_images/2018-09/shutterstock_648907024.jpg?itok=7lrLYx-B'
+            }
+          />
+          {/* BOTONES DE CAROUSEL */}
+          <div className="mt-5 mx-auto w-44 flex justify-between items-center">
+            <button className="w-11 aspect-square rounded-full bg-accent hover:bg-accent/75"></button>
+            <span className="text-xl font-medium">01/02</span>
+            <button className="w-11 aspect-square rounded-full border-solid border-2 border-accent hover:bg-gray-50"></button>
+          </div>
+          {/* BOTONES DE CAROUSEL */}
+        </div>
         {/* CARDs */}
       </section>
 
