@@ -2,6 +2,7 @@ import Image from 'next/image';
 
 import ButtonLP from '@/Components/ButtonLP';
 import Testimonials from '@/Components/Testimonials';
+import Schools from '@/Components/Schools';
 
 export default function Home() {
   return (
@@ -66,24 +67,9 @@ export default function Home() {
         {/* BOTÓN */}
       </section>
       {/* //////////////////////////////// INFO /////////////////////////////////*/}
-      {/* //////////////////////////////// TESTIMONIOS /////////////////////////////////*/}
       <Testimonials />
-      {/* //////////////////////////////// TESTIMONIOS /////////////////////////////////*/}
       {/* //////////////////////////////// ESCUELAS /////////////////////////////////*/}
-      <section>
-        <h2 className="text-center p-5 mt-5 text-xl font-semibold text-accent">
-          Las mejores viviendas cerca de las mejores escuelas
-        </h2>
-        <div className="flex justify-center">
-          <Image
-            src={'/escuelas/ipn.webp'}
-            alt="Hola"
-            width={64}
-            height={64}
-            className="object-cover"
-          />
-        </div>
-      </section>
+      {/* <Schools /> */}
       {/* //////////////////////////////// ESCUELAS /////////////////////////////////*/}
       {/* MOISÉS */}
     </main>

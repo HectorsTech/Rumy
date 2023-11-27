@@ -13,9 +13,10 @@ export default function Testimonials() {
     slidesToShow: 1,
     slidesToScroll: 1,
     variableWidth: true,
+    adaptiveHeight: true,
     autoplay: true,
-    speed: 5000,
-    autoplaySpeed: 1000,
+    speed: 10000,
+    autoplaySpeed: 2000,
     cssEase: 'linear',
   };
   return (
@@ -49,6 +50,7 @@ export default function Testimonials() {
             image={
               'https://covalto.com/static/78498ccda70933a5f1e3edc3e40d3cbe/34aca/Hero_Mobile_Cuenta_Personas_V1_1_8046e424ea.webp'
             }
+            isMid={true}
           />
         </div>
         <div>
@@ -58,6 +60,7 @@ export default function Testimonials() {
             image={
               'https://images.hola.com/imagenes/estar-bien/20221018219233/buenas-personas-caracteristicas/1-153-242/getty-chica-feliz-t.jpg?tx=w_680'
             }
+            isMid={true}
           />
         </div>
         <div>
@@ -69,6 +72,7 @@ export default function Testimonials() {
             image={
               'https://cdn2.psychologytoday.com/assets/styles/manual_crop_1_91_1_1528x800/public/field_blog_entry_images/2018-09/shutterstock_648907024.jpg?itok=7lrLYx-B'
             }
+            isMid={true}
           />
         </div>
         <div>
@@ -80,6 +84,7 @@ export default function Testimonials() {
             image={
               'https://cdn2.psychologytoday.com/assets/styles/manual_crop_1_91_1_1528x800/public/field_blog_entry_images/2018-09/shutterstock_648907024.jpg?itok=7lrLYx-B'
             }
+            isMid={true}
           />
         </div>
         <div>

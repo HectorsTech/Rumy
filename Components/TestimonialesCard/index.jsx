@@ -1,6 +1,6 @@
 export default function TestimonialesCard(props) {
   return (
-    <div className="w-80 relative h-[450px] mx-5">
+    <div className={`w-80 relative h-[450px] mx-5`}>
       <img
         src={props.image}
         alt=""
