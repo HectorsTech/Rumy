@@ -1,13 +1,12 @@
 import Image from 'next/image';
 
-import TestimonialesCard from '@/Components/TestimonialesCard';
 import ButtonLP from '@/Components/ButtonLP';
+import Testimonials from '@/Components/Testimonials';
 
 export default function Home() {
   return (
     <main>
       {/* MOISÉS */}
-
       {/* /////////////////////// INFO //////////////// */}
       <section className="md:flex md:flex-col lg:flex-row justify-center items-center lg:items-start gap-2 px-5 md:px-16">
         {/* IMAGENES */}
@@ -67,44 +66,10 @@ export default function Home() {
         {/* BOTÓN */}
       </section>
       {/* //////////////////////////////// INFO /////////////////////////////////*/}
-
       {/* //////////////////////////////// TESTIMONIOS /////////////////////////////////*/}
-
-      <section>
-        <div className="text-center my-8">
-          <h3 className="text-base font-medium text-secondary">
-            ¿Qué dicen los estudiantes sobre
-            <span className="font-bold text-primary"> Rumy</span>?
-          </h3>
-          <h2 className="text-4xl font-bold text-accent">Testimonios</h2>
-        </div>
-
-        {/* CARDs */}
-        <div class="">
-          <TestimonialesCard
-            name={'juanita Pelaez'}
-            comment={
-              'Gracias a Rumy no tuve que estresarme más al buscar en dónde vivir. Pude preocuparme solo en estudiar”. aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
-            }
-            image={
-              'https://cdn2.psychologytoday.com/assets/styles/manual_crop_1_91_1_1528x800/public/field_blog_entry_images/2018-09/shutterstock_648907024.jpg?itok=7lrLYx-B'
-            }
-          />
-          {/* BOTONES DE CAROUSEL */}
-          <div className="mt-5 mx-auto w-44 flex justify-between items-center">
-            <button className="w-11 aspect-square rounded-full bg-accent hover:bg-accent/75"></button>
-            <span className="text-xl font-medium">01/02</span>
-            <button className="w-11 aspect-square rounded-full border-solid border-2 border-accent hover:bg-gray-50"></button>
-          </div>
-          {/* BOTONES DE CAROUSEL */}
-        </div>
-        {/* CARDs */}
-      </section>
-
+      <Testimonials />
       {/* //////////////////////////////// TESTIMONIOS /////////////////////////////////*/}
-
       {/* //////////////////////////////// ESCUELAS /////////////////////////////////*/}
-
       <section>
         <h2 className="text-center p-5 mt-5 text-xl font-semibold text-accent">
           Las mejores viviendas cerca de las mejores escuelas
@@ -119,9 +84,7 @@ export default function Home() {
           />
         </div>
       </section>
-
       {/* //////////////////////////////// ESCUELAS /////////////////////////////////*/}
-
       {/* MOISÉS */}
     </main>
   );
