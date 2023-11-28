@@ -18,25 +18,20 @@ export default function Home() {
 
       {/*///////////////////////// Buscador///////////////////////*/}
       <div className="flex justify-center items-center mt-5">
-        <div className="w-[80%] sm:w-[60%] md:w-[50%] lg:w-[40%] xl:w-[30%]">
+        <div className="rounded-xl border-2 border-primary focus:outline-none focus:border-accent flex w-[80%] ">
+          <Image 
+            src={'/Icons/lupa.svg'}
+            width={22}
+            height={22}
+            alt="Cuarto"
+            className="mx-3"
+          />
           <input
             type="text"
-            placeholder="¿A dónde quieres ir?"
-            className="w-full p-3 rounded-xl border-2 border-primary focus:outline-none focus:border-accent"
+            placeholder="Mi proximo departamento será..."
+            className="max-w-[260px] w-full py-3 focus:outline-none"
           />
-        </div>
-        <div className="w-[20%] sm:w-[40%] md:w-[50%] lg:w-[60%] xl:w-[70%]">
-          <select
-            name="tipo"
-            id="tipo"
-            className="w-full p-3 rounded-xl border-2 border-primary focus:outline-none focus:border-accent"
-          >
-            <option value="Casa">Casa</option>
-            <option value="Departamento">Departamento</option>
-            <option value="Habitación">Habitación</option>
-          </select>
-        </div>      
-      
+        </div>  
       </div>
     
 
