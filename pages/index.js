@@ -1,5 +1,6 @@
 import Image from 'next/image';
 
+
 import TestimonialesCard from '@/Components/TestimonialesCard';
 import ButtonLP from '@/Components/ButtonLP';
 
@@ -7,6 +8,37 @@ export default function Home() {
   return (
     <main>
       {/* HECTOR */}
+      {/*///////////////////////// Info///////////////////////*/}
+      <div>
+        <h2 className="font-bold text-accent sm:text-[24px] sm:text-center">
+              Busca los mejores luagres para rentar siendo estudiante
+        </h2>
+      </div>
+      {/*///////////////////////// Info///////////////////////*/}
+
+      {/*///////////////////////// Buscador///////////////////////*/}
+      <div className="flex justify-center items-center mt-5">
+        <div className="w-[80%] sm:w-[60%] md:w-[50%] lg:w-[40%] xl:w-[30%]">
+          <input
+            type="text"
+            placeholder="¿A dónde quieres ir?"
+            className="w-full p-3 rounded-xl border-2 border-primary focus:outline-none focus:border-accent"
+          />
+        </div>
+        <div className="w-[20%] sm:w-[40%] md:w-[50%] lg:w-[60%] xl:w-[70%]">
+          <select
+            name="tipo"
+            id="tipo"
+            className="w-full p-3 rounded-xl border-2 border-primary focus:outline-none focus:border-accent"
+          >
+            <option value="Casa">Casa</option>
+            <option value="Departamento">Departamento</option>
+            <option value="Habitación">Habitación</option>
+          </select>
+        </div>      
+      
+      </div>
+    
 
       {/* HECTOR */}
       
