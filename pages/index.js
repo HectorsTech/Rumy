@@ -6,6 +6,10 @@ import ButtonLP from '@/Components/ButtonLP';
 export default function Home() {
   return (
     <main>
+      {/* HECTOR */}
+
+      {/* HECTOR */}
+      
       {/* MOISÉS */}
 
       {/* /////////////////////// INFO //////////////// */}
