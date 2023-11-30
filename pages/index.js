@@ -17,7 +17,7 @@ export default function Home() {
       {/*///////////////////////// Info///////////////////////*/}
 
       {/*///////////////////////// Buscador///////////////////////*/}
-      <div className="flex justify-center items-center mt-5">
+      <div className="flex justify-center items-center my-5">
         <div className="rounded-xl border-2 border-primary focus:outline-none focus:border-accent flex w-[80%] ">
           <Image 
             src={'/Icons/lupa.svg'}
