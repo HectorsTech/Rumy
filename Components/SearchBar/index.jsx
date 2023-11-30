@@ -1,3 +1,4 @@
+import Image from 'next/image';
 export default function SearchBar(props) {
     return (
         <div className="flex justify-center items-center my-5">
@@ -12,7 +13,7 @@ export default function SearchBar(props) {
           <input
             type="text"
             placeholder="Mi proximo departamento será..."
-            className="max-w-[260px] w-full py-3 focus:outline-none"
+            className="max-w-[93%] w-full py-3 focus:outline-none"
           />
         </div>  
       </div>
