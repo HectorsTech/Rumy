@@ -13,7 +13,7 @@ export default function SearchBar(props) {
           <input
             type="text"
             placeholder="Mi proximo departamento será..."
-            className="max-w-[93%] w-full py-3 focus:outline-none"
+            className="max-w-[90%] w-full py-3 focus:outline-none"
           />
         </div>  
       </div>
